@@ -3,11 +3,12 @@
         <h1>{{ msg }}</h1>
         <h2>app > pages > test</h2>
         <list title="我是List组件的标题" text="我是List组件的内容"></list>
+        <counter></counter>
     </div>
 </template>
 
 <script>
-import { List } from '@/components'
+import { List, Counter } from '@/components'
 export default {
     name: 'test',
     data () {
@@ -16,7 +17,8 @@ export default {
         }
     },
     components: {
-        List
+        List,
+        Counter
     }
 }
 </script>
