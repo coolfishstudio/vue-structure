@@ -35,6 +35,8 @@ npm run dev:server
 │  │
 │  ├─pages       // 页面文件
 │  │
+│  ├─router      // 路由文件
+│  │
 │  ├─store       // 数据树文件
 │  │
 │  ├─template    // 初始html文件
