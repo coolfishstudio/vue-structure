@@ -43,7 +43,7 @@ vue-router: 2.2.0
 │  │
 │  ├─store       // 状态文件
 │  │
-│  ├─template    // 初始html文件
+│  ├─template    // 独立文件
 │  │
 │  ├─utils       // 工具文件
 │  │
@@ -56,4 +56,3 @@ vue-router: 2.2.0
 [] 支持多spa项目
 [] 支持ssr项目
 [] 支持ssr+spa混合项目
-
