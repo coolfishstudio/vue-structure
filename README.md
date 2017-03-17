@@ -6,15 +6,19 @@
 # 生产环境
 npm run build
 # 开发环境
-npm run dev:client
+npm run dev
 ```
 
 ## 服务端
 ```
-# 生产环境
-npm run server
 # 开发环境
-npm run dev:server
+npm run server
+```
+
+## 技术选型
+```
+vue: 2.2.2
+vue-router: 2.2.0
 ```
 
 ## 项目目录
@@ -37,7 +41,7 @@ npm run dev:server
 │  │
 │  ├─router      // 路由文件
 │  │
-│  ├─store       // 数据树文件
+│  ├─store       // 状态文件
 │  │
 │  ├─template    // 初始html文件
 │  │
@@ -46,3 +50,10 @@ npm run dev:server
 ├─server    // 服务端程序目录
 │  
 ```
+
+## todo
+[] 支持spa项目
+[] 支持多spa项目
+[] 支持ssr项目
+[] 支持ssr+spa混合项目
+
